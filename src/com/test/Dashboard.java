@@ -2,8 +2,6 @@ package com.test;
 
 import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeSuite;
@@ -27,7 +25,7 @@ public class Dashboard extends Baseclass {
 		Login.login(pom);
 
 	}
-
+	
 	@Test(priority = 1)
 	public void verifytitle() throws InterruptedException
 	{

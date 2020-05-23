@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.test.Dashboard">
+        <methods>
+          <include name="verifytitle"/>
+          <include name="closebrowser"/>
+          <include name="create_post" invocation-numbers="1 2 3"/>
+          <include name="setupm"/>
+        </methods>
+      </class> <!-- com.test.Dashboard -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
